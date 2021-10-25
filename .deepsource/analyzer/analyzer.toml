@@ -1,0 +1,5 @@
+name = "Django antipatterns"
+description = "Custom Django ORM rules, written in semgrep"
+analysis_command = "PYTHONPATH=/toolbox/venv:$PYTHONPATH python3 /app/analyze.py"
+visibility = "public"
+category = "language"
