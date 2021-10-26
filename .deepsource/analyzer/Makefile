@@ -1,8 +1,6 @@
 build:
-	# Copy analyzer files to /app
 	cp -r ../../. /app
-
+	apk add python3-dev py-pip build-base
 	# install semgrep
 	mkdir /toolbox/venv
-	apk add py-pip
 	pip install --target=/toolbox/venv semgrep
