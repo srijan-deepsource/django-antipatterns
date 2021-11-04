@@ -1,6 +1,6 @@
 rules:
 - id: use-earliest-or-latest::DJ-002
-  message: Consider using `latest()` or `earliest()` if you are only accessing first element of an ordered QuerySet. Ref https://docs.djangoproject.com/en/3.0/ref/models/querysets/#django.db.models.query.QuerySet.latest
+  message: Consider using `latest()` or `earliest()` to access first element of an ordered QuerySet
   languages: [python]
   severity: ERROR
   pattern-either:
